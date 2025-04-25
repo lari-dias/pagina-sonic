@@ -1,0 +1,142 @@
+/* Fonte do Sonic */
+@font-face {
+  font-family: "CustomFont";
+  src: url(./fonts/NiseSegaSonic.TTF) format("truetype");
+}
+
+/* Fonte padrão e fundo */
+html {
+  font-family: Helvetica;
+  color: #484848;
+  background-color: #6080e0;
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  background-color: #fcfcfc;
+  position: relative;
+  margin: 50px auto;
+  padding: 20px 50px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.main-title {
+  font-family: "CustomFont";
+  font-size: 50px;
+  color: #193a78;
+  text-shadow: 2px 2px 4px #578fc0;
+  margin-right: 18px;
+}
+
+.main-title-2 {
+  font-family: "CustomFont";
+  font-size: 50px;
+  color: #89241b;
+  text-shadow: 2px 2px 4px #b26b38;
+}
+
+.main-paragraph {
+  font-style: italic;
+}
+
+.text p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+.text li {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+.title-text {
+  color: #fc0000;
+  line-height: 1.5;
+}
+
+/* Imagens*/
+.featured-image,
+.img-bold {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.featured-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.img-bold img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+figcaption {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 14px;
+  color: #484848;
+  line-height: 1.5;
+  font-style: bold;
+}
+
+/* Sinopse e curiosidades */
+.bold {
+  font-weight: bold;
+}
+
+.synopsis-container,
+.curiosities-container,
+.moreinfo-container {
+  padding: 25px 0;
+  margin: 25px 0;
+  border-top: 1px dashed #2424d8;
+  border-bottom: 1px dashed #2424d8;
+}
+
+.curiosities-container li {
+  height: 55px;
+  line-height: 1.5;
+}
+
+/* Newsletter */
+.newsletter-container,
+input[type="email"] {
+  width: 30%;
+  height: 15px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #484848;
+}
+
+/* Botão submit */
+button[type="submit"] {
+  background-color: #193a78;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+}
